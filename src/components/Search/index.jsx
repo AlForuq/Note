@@ -7,6 +7,7 @@ export const Input = ({ onSearch, placeholder }) => {
       <Icon />
       <InputTag
         onChange={(e) => onSearch(e.target.value)}
+        type="text"
         placeholder={placeholder}
       />
     </Wrapper>
